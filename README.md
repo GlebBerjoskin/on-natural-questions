@@ -39,20 +39,6 @@ To finetune a new RoBERTa model on NQ Dataset for 1 epoch, `cd` to repository ro
    * **F1**=0.478,
   *  **Precision**=0.470,
   *  **Recall**=0.486.
-    
-## How to replicate metrics (not applicable anymore, I had to delete large .pt file from this repository)
-
-1.  Make sure the steps (1), (4), (5), (6) from [getting started](https://github.com/GlebBerjoskin/technical_assignment#getting-started) section are completed.
-
-2.  `cd` to the repository root and run the prediction script:
-	 `python run_nq_trainer.py predict_config.json --predict`
-	
-	Adjust eval_batch_size according to your machine specs.
-	
-3.  Run official evaluation script using
-`python nq_eval.py --gold_path=./data/dev/*.gz --predictions_path=./predictions/predictions.json`
-
-	Metrics will be displayed to the terminal.
 	
 ## Notes to the solution
 
