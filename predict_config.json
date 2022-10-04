@@ -1,0 +1,20 @@
+{
+    "test_data_path": "./data/dev",
+    "predictions_path": "./predictions/predictions.json",
+    "checkpoint_path": "./models/roberta-large-9-15-8-43.pt",
+    "class_label_mapping": {
+        "none": 0,
+        "long": 1,
+        "short": 2,
+        "yes": 3,
+        "no": 4
+    },
+    "num_labels": 5,
+    "max_seq_len": 512,
+    "max_quest_len": 64,
+    "doc_stride": 256,
+    "jsonlines_chunk_size": 1000,
+    "model_name": "roberta-large",
+    "eval_batch_size": 32,
+    "seed": 42
+}
