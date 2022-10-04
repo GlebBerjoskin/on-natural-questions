@@ -40,7 +40,7 @@ To finetune a new RoBERTa model on NQ Dataset for 1 epoch, `cd` to repository ro
   *  **Precision**=0.470,
   *  **Recall**=0.486.
     
-## How to replicate metrics
+## How to replicate metrics (not applicable anymore, I had to delete large .pt file from this repository)
 
 1.  Make sure the steps (1), (4), (5), (6) from [getting started](https://github.com/GlebBerjoskin/technical_assignment#getting-started) section are completed.
 
